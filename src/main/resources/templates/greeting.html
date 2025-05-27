@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Greeting Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Hey, ' + ${name} + '!' + 'eat me pls'" />
+<img th:src="@{/images/cake.jpg}" width="600" height="600" />
+</body>
+</html>
