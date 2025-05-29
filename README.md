@@ -15,5 +15,6 @@ How to Run
 - [http://localhost:8080/greeting?name=Elgun](http://localhost:8080/greeting?name=Elgun)
 
 The app displays a greeting message and a cake image
+## Screenshot with parameter in URL
 
 ![Preview](screenshots/greeting.png)
